@@ -1,5 +1,7 @@
 # Face Detection and Information Extraction
 
+![Example Image](https://www.jaccon.com.br/content/images/size/w2000/2024/01/img_2024-01-2800-54-58.jpg)
+
 This Python script demonstrates how to detect faces in an image, draw red circles around the detected faces, add information about the detected faces to the image, and save this information in a JSON file. It utilizes the InsightFace library for face detection and the PIL library for image manipulation.
 
 ## Usage
@@ -8,10 +10,6 @@ This Python script demonstrates how to detect faces in an image, draw red circle
 2. Navigate to the directory containing the script.
 3. Replace the `image_path` variable with the path to the image you want to process.
 4. Run the script using the following command:
-
-```
-python face_detection.py
-```
 
 5. The script will process the image specified in the `image_path` variable, detect faces, draw red circles around the detected faces, add information about the faces, and save the modified image as well as the face information in a JSON file.
 
@@ -22,3 +20,7 @@ Consider an example image named `img03.jpg`. The script will process this image,
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+For more information, please visit the [blog post](https://www.jaccon.com.br/face-detection-utilizando-a-biblioteca-insightface-para-deteccao-de-faces-em-imagens/).
